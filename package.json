@@ -1,0 +1,21 @@
+{
+  "name": "claude-office",
+  "version": "1.0.0",
+  "scripts": {
+    "build": "webpack --mode production",
+    "dev": "webpack serve --mode development --open",
+    "start": "npx serve dist"
+  },
+  "dependencies": {
+    "@anthropic-ai/sdk": "^0.52.0"
+  },
+  "devDependencies": {
+    "typescript": "^5.3.0",
+    "webpack": "^5.88.0",
+    "webpack-cli": "^5.1.0",
+    "webpack-dev-server": "^4.15.0",
+    "ts-loader": "^9.5.0",
+    "html-webpack-plugin": "^5.5.0",
+    "dotenv-webpack": "^8.0.0"
+  }
+}
